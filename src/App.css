@@ -1,0 +1,18 @@
+@font-face {
+  font-family: PokemonFont;
+  src: url(./PokemonSolid.ttf);
+}
+
+h1 {
+  font-family: PokemonFont;
+  color: white;
+  letter-spacing: 0.5rem;
+  margin-top: .75rem;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
