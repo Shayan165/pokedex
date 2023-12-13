@@ -1,9 +1,13 @@
-@font-face { font-family: Pokemon Solid; src: url('https://www.mediafont.com/storage/contents/8321/font.eot'); /* IE */ src: local('Pokemon Solid'), url('https://www.mediafont.com/storage/contents/8321/Pokemon Solid.ttf'); /* non-IE */ }
+@font-face {
+  font-family: PokemonFont;
+  src: url("https://www.mediafont.com/storage/contents/8321/Pokemon Solid.ttf");
+}
+
 h1 {
-  font-family: Pokemon Solid;
+  font-family: PokemonFont;
   color: white;
   letter-spacing: 0.5rem;
-  margin-top: .75rem;
+  margin-top: 0.75rem;
   text-align: center;
 }
 
