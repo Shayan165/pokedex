@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       let accumulatedData = [];
-      for (let i = 1; i <= 100; i++) {
+      for (let i = 1; i <= 25; i++) {
         try {
           const response = await axios.get(
             `https://pokeapi.co/api/v2/pokemon/${i}`
